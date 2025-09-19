@@ -1,0 +1,22 @@
+{
+  "name": "automation-test-nutaclaud",
+  "version": "1.0.0",
+  "description": "Playwright automation testing framework for nutaclaud",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:install": "playwright install"
+  },
+  "keywords": ["playwright", "automation", "testing", "e2e"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.5.2",
+    "typescript": "^5.9.2"
+  }
+}
